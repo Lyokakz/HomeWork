@@ -35,4 +35,9 @@ Console.WriteLine("Введите натуральное число M:");
 int m = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите натуральное число N:");
+int n = Convert.ToInt32(Console.ReadLine());
+
+Console.Write($"M = {m}; N = {n} -> \"");
+GetNaturalNumbersInRange(m, n);
+Console.WriteLine("\"");
 
